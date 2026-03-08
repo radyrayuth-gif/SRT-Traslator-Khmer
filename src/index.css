@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Kantumruy+Pro:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Kantumruy Pro", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-zinc-50 text-zinc-900 antialiased;
+}
+
+.glass-panel {
+  @apply bg-white/80 backdrop-blur-md border border-zinc-200 shadow-sm rounded-2xl;
+}

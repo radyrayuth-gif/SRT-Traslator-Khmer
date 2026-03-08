@@ -1,0 +1,5 @@
+{
+  "name": "SRT Translator (Chinese to Khmer)",
+  "description": "A professional SRT subtitle translator that converts Chinese subtitles to Khmer using Gemini AI.",
+  "requestFramePermissions": []
+}
